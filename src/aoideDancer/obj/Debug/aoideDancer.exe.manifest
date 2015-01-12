@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="aoideDancer.exe" size="321464">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="aoideDancer.exe" size="321976">
       <assemblyIdentity name="aoideDancer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7K4LXVewFDQbiyjUQeRS1J0v/Zdbkx9GL1tTTiKxnws=</dsig:DigestValue>
+        <dsig:DigestValue>Ijg45QPCbNaATJVGEO66erR8H4ODJv5AVy/uM1FyMCg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

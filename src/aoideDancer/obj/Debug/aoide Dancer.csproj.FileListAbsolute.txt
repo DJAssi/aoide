@@ -139,3 +139,23 @@ C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer_Conten
 C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer_MarkupCompile.cache
 C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer_MarkupCompile.lref
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\dll\fmodexL.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\dll\fmodexL64.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\aoideDancer.exe.manifest
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\aoideDancer.application
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\aoideDancer.exe
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\aoideDancer.pdb
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\IdSharp.Common.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\IdSharp.Tagging.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\zlib.net.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\IdSharp.Common.pdb
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\IdSharp.Common.xml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\IdSharp.Tagging.pdb
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\IdSharp.Tagging.xml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\ctl_player.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\MainWindow.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer.g.resources
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer.Properties.Resources.resources
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoide Dancer.csproj.GenerateResource.Cache
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer.exe.manifest
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer.application
