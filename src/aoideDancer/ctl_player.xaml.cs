@@ -30,7 +30,6 @@ namespace aoideDancer
         public ctl_player()
         {
             InitializeComponent();
-            if (!new System.IO.DirectoryInfo(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic) + "\\aoide_voices").Exists) BtnTanzansage.IsEnabled = false;
         }
 
         public void Dispose()
@@ -62,6 +61,7 @@ namespace aoideDancer
             is_answered = false;
             is_finished = false;
             song.Finished += song_Finished;
+            BtnTanzansage.IsEnabled = (new System.IO.DirectoryInfo(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic) + "\\aoide_voices").Exists);
         }
 
         public void LoadSongAndPlay(System.IO.FileInfo datei)
