@@ -415,3 +415,16 @@ FMOD: SystemI::createSoundInternal   :     No name found in file, use filename.
 FMOD: SystemI::createSoundInternal   :     done.  OpenState now = FMOD_OPENSTATE_READY.
 
 FMOD: AsyncThread::threadFunc        : Finished Asynchronous operation on sound 0740F5E8
+FMOD: SoundI::release                : B (0740F5E8)
+FMOD: SoundI::release                : remove stream samples. (0740F5E8)
+FMOD: SoundI::release                :      (074592A8)
+FMOD: SoundI::release                :     free this. (074592A8)
+FMOD: SoundI::release                :     done (074592A8)
+FMOD: SoundI::release                : release codec. (0740F5E8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 0740F770)
+FMOD: Plugin::release                : (07457E08)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : done
+FMOD: SoundI::release                : free this. (0740F5E8)
+FMOD: SoundI::release                : done (0740F5E8)
