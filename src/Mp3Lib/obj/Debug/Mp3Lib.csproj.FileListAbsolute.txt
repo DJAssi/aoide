@@ -1,0 +1,20 @@
+C:\Users\Andreas\Documents\Visual Studio 2013\Projects\aoide\Mp3Lib\bin\Debug\Mp3Lib.dll
+C:\Users\Andreas\Documents\Visual Studio 2013\Projects\aoide\Mp3Lib\bin\Debug\Mp3Lib.pdb
+C:\Users\Andreas\Documents\Visual Studio 2013\Projects\aoide\Mp3Lib\bin\Debug\Mp3Lib.XML
+C:\Users\Andreas\Documents\Visual Studio 2013\Projects\aoide\Mp3Lib\bin\Debug\Id3Lib.dll
+C:\Users\Andreas\Documents\Visual Studio 2013\Projects\aoide\Mp3Lib\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Andreas\Documents\Visual Studio 2013\Projects\aoide\Mp3Lib\bin\Debug\Id3Lib.pdb
+C:\Users\Andreas\Documents\Visual Studio 2013\Projects\aoide\Mp3Lib\bin\Debug\Id3Lib.xml
+C:\Users\Andreas\Documents\Visual Studio 2013\Projects\aoide\Mp3Lib\obj\Debug\Mp3Lib.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\Documents\Visual Studio 2013\Projects\aoide\Mp3Lib\obj\Debug\Mp3Lib.dll
+C:\Users\Andreas\Documents\Visual Studio 2013\Projects\aoide\Mp3Lib\obj\Debug\Mp3Lib.pdb
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\Mp3Lib\bin\Debug\Mp3Lib.dll
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\Mp3Lib\bin\Debug\Mp3Lib.pdb
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\Mp3Lib\bin\Debug\Mp3Lib.XML
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\Mp3Lib\bin\Debug\Id3Lib.dll
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\Mp3Lib\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\Mp3Lib\bin\Debug\Id3Lib.pdb
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\Mp3Lib\bin\Debug\Id3Lib.xml
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\Mp3Lib\obj\Debug\Mp3Lib.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\Mp3Lib\obj\Debug\Mp3Lib.dll
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\Mp3Lib\obj\Debug\Mp3Lib.pdb

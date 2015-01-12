@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="aoideDancer.controls.RatingStars"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="250">
+    <Grid x:Name="BGGrid" MouseMove="BGGrid_MouseMove" MouseEnter="BGGrid_MouseEnter" MouseLeave="BGGrid_MouseLeave">
+
+        <Image Source="pack://siteoforigin:,,,/Resources/ratingstars_off.png"/>
+        <Image x:Name="StarsOn" Source="pack://siteoforigin:,,,/Resources/ratingstars_on.png" HorizontalAlignment="Right"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,54 @@
+﻿<Window x:Class="aoideDancer.Win_Songeditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Song-Editor" Height="500" Width="500" Closing="Form_Closing" Icon="aoide.ico">
+    <Grid>
+        <Menu HorizontalAlignment="Stretch" Height="25" Margin="0,0,0,0" VerticalAlignment="Top">
+            <MenuItem Header="_Datei">
+                <MenuItem Header="Song öffnen" Click="MenuSongOpen_Click"/>
+                <MenuItem Header="Song speichern" Click="MenuSongSave_Click"/>
+                <MenuItem Header="B_eenden"/>
+            </MenuItem>
+        </Menu>
+        <Menu HorizontalAlignment="Stretch" Height="32" Margin="0,25,0,0" VerticalAlignment="Top">
+            <Button x:Name="BtnSave" Content="Speichern" Click="BtnSave_click"/>
+            <Button x:Name="BtnSongPlay" Content="Play" Click="BtnSongPlay_click"/>
+        </Menu>
+        <StatusBar HorizontalAlignment="Stretch" Height="20" VerticalAlignment="Bottom"/>
+        <TabControl Margin="0,58,0,19">
+            <TabItem Header="Allgemein">
+                <Grid Background="#FFE5E5E5" Margin="0,1,0,-1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="107*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Label Content="Datei:" HorizontalAlignment="Stretch" Height="24" Margin="10,47,0,0" VerticalAlignment="Top" Grid.Column="0"/>
+                    <Label x:Name="FldFilename" Content="Label" HorizontalAlignment="Stretch" Height="24" Margin="0,47,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <Label Content="Ínterpret:" HorizontalAlignment="Stretch" Height="24" Margin="10,76,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Titel:" HorizontalAlignment="Stretch" Height="24" Margin="10,105,0,0" VerticalAlignment="Top" Grid.Column="0"/>
+                    <TextBox x:Name="FldArtist" HorizontalAlignment="Stretch" Height="24" Margin="0,78,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" TextChanged="FldArtist_changed" Grid.Column="1 "/>
+                    <TextBox x:Name="FldTitle" HorizontalAlignment="Stretch" Height="24" Margin="0,107,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" TextChanged="FldTitle_changed" Grid.Column="1"/>
+                    <Label Content="Tanz:" HorizontalAlignment="Stretch" Height="24" Margin="10,163,0,0" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="FldDance" HorizontalAlignment="Left" Height="22" Margin="0,165,0,0" VerticalAlignment="Top" Width="228" SelectionChanged="FldDance_change" Grid.Column="1">
+                        <ComboBoxItem Tag="" Content="**** bitte wählen ***"/>
+                        <ComboBoxItem Tag="--" Content="kein Tanz möglich"/>
+                    </ComboBox>
+                    <Label Content="Geschwind..." HorizontalAlignment="Stretch" Height="24" Margin="10,193,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="FldDanceTpM" HorizontalAlignment="Left" Height="24" Margin="0,194,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="66" TextChanged="FldDanceTpM_changed" Grid.Column="1"/>
+                    <Button x:Name="BtnTapping" Content="Tap" HorizontalAlignment="Left" Height="24" Margin="74,192,0,0" VerticalAlignment="Top" Width="68" Click="BtnTap_click" Grid.Column="1"/>
+                    <Label Content="Version:" HorizontalAlignment="Left" Height="24" Margin="10,133,0,0" VerticalAlignment="Top" Grid.Column="0"/>
+                    <TextBox x:Name="FldVersion" HorizontalAlignment="Stretch" Height="24" Margin="0,135,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" TextChanged="FldVersion_changed" Grid.Column="1 "/>
+                    <Label Content="Erster Schlag" HorizontalAlignment="Stretch" Height="24" Margin="10,224,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="FldFirstStep" HorizontalAlignment="Left" Height="24" Margin="0,225,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="66" TextChanged="FldFirstStep_changed" Grid.Column="1"/>
+                    <Button x:Name="BtnTapFirstStep" Content="Tap" HorizontalAlignment="Left" Height="24" Margin="74,223,0,0" VerticalAlignment="Top" Width="68" Click="BtnTapFirstStep_click" Grid.Column="1"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Details">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="aoideDancer.ctl_songsearch"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="0">
+
+        <ComboBox x:Name="SelectDance" Width="100" SelectionChanged="SelectDance_SelectionChanged" >
+                <ComboBoxItem Tag="">*** alle Tänze ***</ComboBoxItem>
+            </ComboBox>
+        <ComboBox Width="100" >
+                <ComboBoxItem Tag="">alle Arten</ComboBoxItem>
+                <ComboBoxItem Tag="1">Jugend</ComboBoxItem>
+                <ComboBoxItem Tag="2">Erwachsene</ComboBoxItem>
+                <ComboBoxItem Tag="3">Weihnachten</ComboBoxItem>
+            </ComboBox>
+            <ComboBox x:Name="SelectYear" Width="75" >
+                <ComboBoxItem Tag="" Content="alle Jahre"/>
+            </ComboBox>
+            <TextBox x:Name="query" Width="200"/>
+            <Button Content="suchen" Click="Button_Click"/>
+            <ProgressBar x:Name="ProgressIndexer" Width="75"/>
+        </WrapPanel>
+        <DataGrid Name="gridSongs" ItemsSource="{Binding}" AutoGenerateColumns="False" IsReadOnly="True" MouseDoubleClick="searchgrid_doubleclick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" VerticalGridLinesBrush="#19000000" HorizontalGridLinesBrush="#40000000" KeyUp="gridSongs_KeyUp">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn/>
+                <DataGridTemplateColumn Header="Image" Width="SizeToCells" IsReadOnly="True">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Cover}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding Artist}" ClipboardContentBinding="{x:Null}" Header="Interpret"/>
+                <DataGridTextColumn Binding="{Binding Titel}" ClipboardContentBinding="{x:Null}" Header="Titel"/>
+                <DataGridTextColumn Binding="{Binding Tanz}" ClipboardContentBinding="{x:Null}" Header="Tanz"/>
+                <DataGridTextColumn Binding="{Binding TpM}" ClipboardContentBinding="{x:Null}" Header="T/min."/>
+                <DataGridTextColumn Binding="{Binding Duration}" ClipboardContentBinding="{x:Null}" Header="Länge"/>
+                <DataGridTextColumn Binding="{Binding Year}" ClipboardContentBinding="{x:Null}" Header="Jahr"/>
+                <DataGridTemplateColumn/>
+            </DataGrid.Columns>
+            <!--<DataGrid.Columns>
+                            <DataGridTemplateColumn Header="Interpret">
+                                <DataGridTemplateColumn.CellEditingTemplate>
+                                    <DataTemplate>
+                                        <DatePicker SelectedDate="{Binding Artist}" />
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellEditingTemplate>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Path=Artist}" />
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>-->
+        </DataGrid>
+
+    </Grid>
+</UserControl>

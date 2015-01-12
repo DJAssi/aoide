@@ -1,0 +1,40 @@
+﻿<Window x:Class="aoideDancer.Win_Songoptimizer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Win_Songoptimizer" Height="300" Width="300">
+    <Grid>
+        <ListView x:Name="liste1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ItemsSource="{Binding Path=_list}" MouseDoubleClick="liste_doubleclick" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Interpret">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Artist}"
+                                  Width="{Binding CheckWidth}" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Titel">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Title}"
+                                  Width="{Binding CheckWidth}" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Grund"/>
+                    <GridViewColumn Header="Datei">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Datei.Fullname}"
+                                  Width="{Binding CheckWidth}" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+            
+        </ListView>
+
+    </Grid>
+</Window>

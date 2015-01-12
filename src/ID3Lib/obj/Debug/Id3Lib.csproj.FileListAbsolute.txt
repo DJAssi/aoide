@@ -1,0 +1,14 @@
+C:\Users\Andreas\Desktop\ID3Lib\bin\Debug\Id3Lib.XML
+C:\Users\Andreas\Desktop\ID3Lib\bin\Debug\Id3Lib.dll
+C:\Users\Andreas\Desktop\ID3Lib\bin\Debug\Id3Lib.pdb
+C:\Users\Andreas\Desktop\ID3Lib\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Andreas\Desktop\ID3Lib\obj\Debug\Id3Lib.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\Desktop\ID3Lib\obj\Debug\Id3Lib.dll
+C:\Users\Andreas\Desktop\ID3Lib\obj\Debug\Id3Lib.pdb
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\ID3Lib\bin\Debug\Id3Lib.XML
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\ID3Lib\bin\Debug\Id3Lib.dll
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\ID3Lib\bin\Debug\Id3Lib.pdb
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\ID3Lib\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\ID3Lib\obj\Debug\Id3Lib.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\ID3Lib\obj\Debug\Id3Lib.dll
+C:\Users\Andreas\workspace\Visual Studio\aoide\src\ID3Lib\obj\Debug\Id3Lib.pdb

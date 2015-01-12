@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="aoideDancer.controls.ctl_partyplayer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="600">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="20*"/>
+      <ColumnDefinition Width="20*"/>
+    </Grid.ColumnDefinitions>
+        <GroupBox Grid.Column="1" Header="nächste Songs" HorizontalAlignment="Stretch" Height="200" Margin="10,9,0,0" VerticalAlignment="Top">
+      <StackPanel>
+                <DataGrid x:Name="ListNextSongs" ItemsSource="{Binding}" AutoGenerateColumns="True" IsReadOnly="True" Height="100" >
+        <DataGrid.Columns>
+          <DataGridTextColumn Binding="{Binding Artist}" ClipboardContentBinding="{x:Null}" Header="Interpret"/>
+        </DataGrid.Columns>
+      </DataGrid>
+                <Button x:Name="BtnRecalc" Content="neu berechnen" HorizontalAlignment="Left" Height="23" Margin="6,0,0,0" Width="92" Click="BtnRecalc_Click"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Column="1" Header="Party-Einstellungen" HorizontalAlignment="Stretch" Height="124" Margin="10,214,0,-38" VerticalAlignment="Top">
+      <Grid>
+        <Label Content="Tanzwiederhlungen:" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="117" Margin="10,10,0,0"/>
+                <TextBox HorizontalAlignment="Left" Height="20" Margin="132,12,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="38" HorizontalContentAlignment="Right"/>
+            </Grid>
+    </GroupBox>
+        <DataGrid x:Name="quisquilia" HorizontalAlignment="Left" Height="206" Margin="29,50,0,0" VerticalAlignment="Top" Width="199">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Dance"/>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Prozent"/>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Bisher"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
