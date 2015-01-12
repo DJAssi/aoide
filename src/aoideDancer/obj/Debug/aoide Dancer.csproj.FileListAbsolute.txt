@@ -112,3 +112,8 @@ C:\Users\Andreas\workspace\Visual Studio\aoide\src\aoideDancer\obj\Debug\aoideDa
 C:\Users\Andreas\workspace\Visual Studio\aoide\src\aoideDancer\obj\Debug\aoide Dancer.csproj.GenerateResource.Cache
 C:\Users\Andreas\workspace\Visual Studio\aoide\src\aoideDancer\obj\Debug\aoideDancer.exe.manifest
 C:\Users\Andreas\workspace\Visual Studio\aoide\src\aoideDancer\obj\Debug\aoideDancer.application
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Debug\aoideDancer.exe.config
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\Interop.ADOX.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoide Dancer.csproj.ResolveComReference.cache
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer.exe
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer.pdb
