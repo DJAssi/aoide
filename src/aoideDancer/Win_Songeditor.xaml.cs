@@ -189,5 +189,15 @@ namespace aoideDancer
             uint d = _song.DurationMS;
             if (d > 0) _song.DurationMS = d;
         }
+
+        private void BtnOptiFilename_Click(object sender, RoutedEventArgs e)
+        {
+            String a = _song.Artist +" - "+_song.Title;
+            if (_song.Version != null) a+= " ("+_song.Version+")";
+            if (_song.Year != null) a+= " ["+_song.Year+"]";
+            if (_song.getDance() != null) a+= " ["+_song.getDance()+Math.Round(_song.getDanceTpM,0).ToString()+"]";
+            a += ".mp3";
+            FldFilename.Content = a;
+        }
     }
 }

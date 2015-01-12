@@ -117,3 +117,25 @@ C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\Interop.ADOX.dll
 C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoide Dancer.csproj.ResolveComReference.cache
 C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer.exe
 C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer.pdb
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoide Dancer.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\controls\ctl_partyplayer.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\controls\RatingStars.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\ctl_playlist.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\ctl_songsearch.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\Win_Settings.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\Win_Songeditor.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\Win_Songoptimizer.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\controls\ctl_partyplayer.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\controls\RatingStars.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\ctl_player.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\ctl_playlist.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\MainWindow.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\ctl_songsearch.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\Win_Settings.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\Win_Songeditor.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\Win_Songoptimizer.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\App.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer_Content.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer_MarkupCompile.cache
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Debug\aoideDancer_MarkupCompile.lref
