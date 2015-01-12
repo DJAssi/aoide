@@ -23,7 +23,7 @@
         <Label x:Name="LabelZeit" Content="---" HorizontalAlignment="Left" Height="26" Margin="10,113,0,0" VerticalAlignment="Top" Width="134"/>
         <Label x:Name="LabelRestzeit" Content="---" HorizontalAlignment="Left" Height="26" Margin="277,113,0,0" VerticalAlignment="Top" Width="134" HorizontalContentAlignment="Right"/>
         <Slider x:Name="SliderSpeed" HorizontalAlignment="Left" Height="100" Margin="430,28,0,0" VerticalAlignment="Top" Width="22" Orientation="Vertical" Maximum="2" SmallChange="0.001" LargeChange="0.01" Value="1" ValueChanged="OnSliderSpeedChange" MouseDown="OnSliderMouseDown" ToolTip="Geschwindigkeit"/>
-        <CheckBox x:Name="BtnTanzansage" Content="Tanzansage" HorizontalAlignment="Left" Height="17" Margin="421,139,0,0" VerticalAlignment="Top" Width="111"/>
+        <CheckBox x:Name="BtnTanzansage" Content="Tanzansage" HorizontalAlignment="Left" Height="17" Margin="421,139,0,0" VerticalAlignment="Top" Width="111" IsEnabled="False"/>
         <CheckBox Content="Einzählen" HorizontalAlignment="Left" Height="17" Margin="421,155,0,0" VerticalAlignment="Top" Width="111" IsEnabled="False"/>
         <CheckBox Content="Überblenden" HorizontalAlignment="Left" Height="17" Margin="421,172,0,0" VerticalAlignment="Top" Width="111" IsEnabled="False"/>
         <Button Content="Pitch" HorizontalAlignment="Left" Height="20" Margin="421,8,0,0" VerticalAlignment="Top" Width="35" IsEnabled="False"/>
