@@ -43,7 +43,7 @@
                     <Label Content="Erster Schlag" HorizontalAlignment="Stretch" Height="24" Margin="10,224,0,0" VerticalAlignment="Top"/>
                     <TextBox x:Name="FldFirstStep" HorizontalAlignment="Left" Height="24" Margin="0,225,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="66" TextChanged="FldFirstStep_changed" Grid.Column="1"/>
                     <Button x:Name="BtnTapFirstStep" Content="Tap" HorizontalAlignment="Left" Height="24" Margin="74,223,0,0" VerticalAlignment="Top" Width="68" Click="BtnTapFirstStep_click" Grid.Column="1"/>
-                    <Button x:Name="BtnOptiFilename" Content="Opti" Grid.Column="1" HorizontalAlignment="Left" Margin="354,49,0,0" VerticalAlignment="Top" Width="48" Click="BtnOptiFilename_Click"/>
+                    <Button x:Name="BtnOptiFilename" Content="Opti" Grid.Column="1" HorizontalAlignment="Right" Margin="0,49,5,0" VerticalAlignment="Top" Width="48" Click="BtnOptiFilename_Click"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Details">
