@@ -1,3 +1,46 @@
 C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\aoideDancer.exe.config
 C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\Interop.ADOX.dll
 C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoide Dancer.csproj.ResolveComReference.cache
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\dll\fmodexL.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\dll\fmodexL64.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\aoideDancer.exe.manifest
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\aoideDancer.application
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\aoideDancer.exe
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\aoideDancer.pdb
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\IdSharp.Common.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\IdSharp.Tagging.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\zlib.net.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\IdSharp.Common.pdb
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\IdSharp.Common.xml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\IdSharp.Tagging.pdb
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoide Dancer.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\controls\ctl_partyplayer.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\controls\RatingStars.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\ctl_playlist.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\ctl_songsearch.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\Win_Settings.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\Win_Songeditor.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\Win_Songoptimizer.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\controls\ctl_partyplayer.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\controls\RatingStars.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\ctl_player.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\ctl_playlist.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\MainWindow.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\ctl_songsearch.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\Win_Settings.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\Win_Songeditor.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\Win_Songoptimizer.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\App.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoideDancer_Content.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoideDancer_MarkupCompile.cache
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoideDancer_MarkupCompile.lref
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\ctl_player.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\MainWindow.baml
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoideDancer.g.resources
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoideDancer.Properties.Resources.resources
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoide Dancer.csproj.GenerateResource.Cache
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoideDancer.exe.manifest
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoideDancer.application
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoideDancer.exe
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoideDancer.pdb
