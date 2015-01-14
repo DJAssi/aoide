@@ -50,6 +50,8 @@ namespace aoideDancer
         {
             if (sound != null) sound.release();
             if (_datei.IsReadOnly) throw new Exception("Datei ist nicht beschreibbar. Read-Only");
+            id3v2.EncodedByWho = "aoide.musicload.de";
+            id3v2.Publisher = this.getDance() + Math.Round(this.getDanceTpM(), 0).ToString();
             id3v2.Save(_datei.FullName);
             is_edited = false;
         }
@@ -322,13 +324,11 @@ namespace aoideDancer
         public void setDance(string dancecode)
         {
             setComment("DANCE", dancecode);
-            id3v2.Publisher = this.getDance() + Math.Round(this.getDanceTpM(), 0).ToString();
         }
 
         public void setDanceTpM(float value)
         {
             setComment("DANCETPM", value.ToString());
-            id3v2.Publisher = this.getDance() + Math.Round(this.getDanceTpM(), 0).ToString();
         }
 
         public float FirstDanceBeat
