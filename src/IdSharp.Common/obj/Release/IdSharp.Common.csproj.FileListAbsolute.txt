@@ -1,0 +1,6 @@
+C:\Users\Andreas\SparkleShare\aoide\src\IdSharp.Common\bin\Release\IdSharp.Common.XML
+C:\Users\Andreas\SparkleShare\aoide\src\IdSharp.Common\bin\Release\IdSharp.Common.dll
+C:\Users\Andreas\SparkleShare\aoide\src\IdSharp.Common\bin\Release\IdSharp.Common.pdb
+C:\Users\Andreas\SparkleShare\aoide\src\IdSharp.Common\obj\Release\IdSharp.Common.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\SparkleShare\aoide\src\IdSharp.Common\obj\Release\IdSharp.Common.dll
+C:\Users\Andreas\SparkleShare\aoide\src\IdSharp.Common\obj\Release\IdSharp.Common.pdb

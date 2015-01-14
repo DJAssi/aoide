@@ -1,0 +1,6 @@
+C:\Users\Andreas\SparkleShare\aoide\src\ID3Lib\bin\Release\Id3Lib.dll
+C:\Users\Andreas\SparkleShare\aoide\src\ID3Lib\bin\Release\Id3Lib.pdb
+C:\Users\Andreas\SparkleShare\aoide\src\ID3Lib\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Andreas\SparkleShare\aoide\src\ID3Lib\obj\Release\Id3Lib.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\SparkleShare\aoide\src\ID3Lib\obj\Release\Id3Lib.dll
+C:\Users\Andreas\SparkleShare\aoide\src\ID3Lib\obj\Release\Id3Lib.pdb
