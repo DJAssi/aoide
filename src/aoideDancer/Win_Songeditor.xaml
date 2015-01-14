@@ -15,7 +15,9 @@
             <Button x:Name="BtnSongPlay" Content="Play" Click="BtnSongPlay_click"/>
         </Menu>
         <StatusBar HorizontalAlignment="Stretch" Height="20" VerticalAlignment="Bottom">
-            <Label x:Name="LblStatus" Content="Label"/>
+            <StatusBarItem>
+                <TextBlock x:Name="LblStatus" Text="---"/>
+            </StatusBarItem>
         </StatusBar>
         <TabControl Margin="0,58,0,19">
             <TabItem Header="Allgemein">
