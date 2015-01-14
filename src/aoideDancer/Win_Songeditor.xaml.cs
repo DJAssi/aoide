@@ -169,7 +169,7 @@ namespace aoideDancer
 
         private void BtnSave_click(object sender, RoutedEventArgs e)
         {
-            _song.save();
+            if (_song.save()) LblStatus.Content = "gespeichert...";
         }
 
         private void FldFirstStep_changed(object sender, TextChangedEventArgs e)
