@@ -1,0 +1,3 @@
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\bin\Release\aoideDancer.exe.config
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\Interop.ADOX.dll
+C:\Users\Andreas\SparkleShare\aoide\src\aoideDancer\obj\Release\aoide Dancer.csproj.ResolveComReference.cache
