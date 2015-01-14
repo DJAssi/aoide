@@ -57,7 +57,15 @@ namespace aoideDancer {
         #line hidden
         
         
-        #line 28 "..\..\Win_Songeditor.xaml"
+        #line 18 "..\..\Win_Songeditor.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label LblStatus;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 30 "..\..\Win_Songeditor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label FldFilename;
         
@@ -65,7 +73,7 @@ namespace aoideDancer {
         #line hidden
         
         
-        #line 31 "..\..\Win_Songeditor.xaml"
+        #line 33 "..\..\Win_Songeditor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox FldArtist;
         
@@ -73,7 +81,7 @@ namespace aoideDancer {
         #line hidden
         
         
-        #line 32 "..\..\Win_Songeditor.xaml"
+        #line 34 "..\..\Win_Songeditor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox FldTitle;
         
@@ -81,7 +89,7 @@ namespace aoideDancer {
         #line hidden
         
         
-        #line 34 "..\..\Win_Songeditor.xaml"
+        #line 36 "..\..\Win_Songeditor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ComboBox FldDance;
         
@@ -89,7 +97,7 @@ namespace aoideDancer {
         #line hidden
         
         
-        #line 39 "..\..\Win_Songeditor.xaml"
+        #line 41 "..\..\Win_Songeditor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox FldDanceTpM;
         
@@ -97,7 +105,7 @@ namespace aoideDancer {
         #line hidden
         
         
-        #line 40 "..\..\Win_Songeditor.xaml"
+        #line 42 "..\..\Win_Songeditor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button BtnTapping;
         
@@ -105,7 +113,7 @@ namespace aoideDancer {
         #line hidden
         
         
-        #line 42 "..\..\Win_Songeditor.xaml"
+        #line 44 "..\..\Win_Songeditor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox FldVersion;
         
@@ -113,7 +121,7 @@ namespace aoideDancer {
         #line hidden
         
         
-        #line 44 "..\..\Win_Songeditor.xaml"
+        #line 46 "..\..\Win_Songeditor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox FldFirstStep;
         
@@ -121,7 +129,7 @@ namespace aoideDancer {
         #line hidden
         
         
-        #line 45 "..\..\Win_Songeditor.xaml"
+        #line 47 "..\..\Win_Songeditor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button BtnTapFirstStep;
         
@@ -129,7 +137,7 @@ namespace aoideDancer {
         #line hidden
         
         
-        #line 46 "..\..\Win_Songeditor.xaml"
+        #line 48 "..\..\Win_Songeditor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button BtnOptiFilename;
         
@@ -209,84 +217,87 @@ namespace aoideDancer {
             #line hidden
             return;
             case 6:
-            this.FldFilename = ((System.Windows.Controls.Label)(target));
+            this.LblStatus = ((System.Windows.Controls.Label)(target));
             return;
             case 7:
+            this.FldFilename = ((System.Windows.Controls.Label)(target));
+            return;
+            case 8:
             this.FldArtist = ((System.Windows.Controls.TextBox)(target));
             
-            #line 31 "..\..\Win_Songeditor.xaml"
+            #line 33 "..\..\Win_Songeditor.xaml"
             this.FldArtist.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.FldArtist_changed);
             
             #line default
             #line hidden
             return;
-            case 8:
+            case 9:
             this.FldTitle = ((System.Windows.Controls.TextBox)(target));
             
-            #line 32 "..\..\Win_Songeditor.xaml"
+            #line 34 "..\..\Win_Songeditor.xaml"
             this.FldTitle.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.FldTitle_changed);
             
             #line default
             #line hidden
             return;
-            case 9:
+            case 10:
             this.FldDance = ((System.Windows.Controls.ComboBox)(target));
             
-            #line 34 "..\..\Win_Songeditor.xaml"
+            #line 36 "..\..\Win_Songeditor.xaml"
             this.FldDance.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.FldDance_change);
             
             #line default
             #line hidden
             return;
-            case 10:
+            case 11:
             this.FldDanceTpM = ((System.Windows.Controls.TextBox)(target));
             
-            #line 39 "..\..\Win_Songeditor.xaml"
+            #line 41 "..\..\Win_Songeditor.xaml"
             this.FldDanceTpM.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.FldDanceTpM_changed);
             
             #line default
             #line hidden
             return;
-            case 11:
+            case 12:
             this.BtnTapping = ((System.Windows.Controls.Button)(target));
             
-            #line 40 "..\..\Win_Songeditor.xaml"
+            #line 42 "..\..\Win_Songeditor.xaml"
             this.BtnTapping.Click += new System.Windows.RoutedEventHandler(this.BtnTap_click);
             
             #line default
             #line hidden
             return;
-            case 12:
+            case 13:
             this.FldVersion = ((System.Windows.Controls.TextBox)(target));
             
-            #line 42 "..\..\Win_Songeditor.xaml"
+            #line 44 "..\..\Win_Songeditor.xaml"
             this.FldVersion.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.FldVersion_changed);
             
             #line default
             #line hidden
             return;
-            case 13:
+            case 14:
             this.FldFirstStep = ((System.Windows.Controls.TextBox)(target));
             
-            #line 44 "..\..\Win_Songeditor.xaml"
+            #line 46 "..\..\Win_Songeditor.xaml"
             this.FldFirstStep.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.FldFirstStep_changed);
             
             #line default
             #line hidden
             return;
-            case 14:
+            case 15:
             this.BtnTapFirstStep = ((System.Windows.Controls.Button)(target));
             
-            #line 45 "..\..\Win_Songeditor.xaml"
+            #line 47 "..\..\Win_Songeditor.xaml"
             this.BtnTapFirstStep.Click += new System.Windows.RoutedEventHandler(this.BtnTapFirstStep_click);
             
             #line default
             #line hidden
             return;
-            case 15:
+            case 16:
             this.BtnOptiFilename = ((System.Windows.Controls.Button)(target));
             
-            #line 46 "..\..\Win_Songeditor.xaml"
+            #line 48 "..\..\Win_Songeditor.xaml"
             this.BtnOptiFilename.Click += new System.Windows.RoutedEventHandler(this.BtnOptiFilename_Click);
             
             #line default
