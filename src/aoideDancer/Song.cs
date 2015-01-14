@@ -401,7 +401,10 @@ namespace aoideDancer
                 if (m1.Success) return m1.Groups[3].Value;
                 return null;
             }
-            set { }
+            set {
+                if (id3v2.Subtitle == value) return;
+                id3v2.Subtitle = value;
+            }
         }
 
         public String Title
@@ -418,7 +421,7 @@ namespace aoideDancer
             set
             {
                 if (id3v2.Title == value) return;
-                id3v2.Artist = value;
+                id3v2.Title = value;
             }
         }
 
