@@ -46,7 +46,7 @@ namespace aoideDancer
             get { return _datei; }
         }
 
-        public void save()
+        public bool save()
         {
             if (sound != null) sound.release();
             if (_datei.IsReadOnly) throw new Exception("Datei ist nicht beschreibbar. Read-Only");
@@ -54,6 +54,7 @@ namespace aoideDancer
             id3v2.Publisher = this.getDance() + Math.Round(this.getDanceTpM(), 0).ToString();
             id3v2.Save(_datei.FullName);
             is_edited = false;
+            return true;
         }
 
         public void play()
