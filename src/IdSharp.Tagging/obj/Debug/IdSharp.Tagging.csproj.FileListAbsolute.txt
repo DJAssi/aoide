@@ -22,3 +22,15 @@ C:\Users\Andreas\workspace\Visual Studio\aoide\src\IdSharp.Tagging\obj\Debug\IdS
 C:\Users\Andreas\workspace\Visual Studio\aoide\src\IdSharp.Tagging\obj\Debug\IdSharp.Tagging.csproj.GenerateResource.Cache
 C:\Users\Andreas\workspace\Visual Studio\aoide\src\IdSharp.Tagging\obj\Debug\IdSharp.Tagging.dll
 C:\Users\Andreas\workspace\Visual Studio\aoide\src\IdSharp.Tagging\obj\Debug\IdSharp.Tagging.pdb
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\bin\Debug\IdSharp.Tagging.xml
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\bin\Debug\IdSharp.Tagging.dll
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\bin\Debug\IdSharp.Tagging.pdb
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\bin\Debug\IdSharp.Common.dll
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\bin\Debug\zlib.net.dll
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\bin\Debug\IdSharp.Common.pdb
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\bin\Debug\IdSharp.Common.xml
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\obj\Debug\IdSharp.Tagging.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\obj\Debug\IdSharp.Tagging.Properties.Resources.resources
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\obj\Debug\IdSharp.Tagging.csproj.GenerateResource.Cache
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\obj\Debug\IdSharp.Tagging.dll
+C:\Users\Andreas\workspace\VisualStudio\aoide\IdSharp.Tagging\obj\Debug\IdSharp.Tagging.pdb

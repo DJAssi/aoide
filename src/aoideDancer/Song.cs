@@ -28,6 +28,7 @@ namespace aoideDancer
             _datei = datei;
             id3v2 = new IdSharp.Tagging.ID3v2.ID3v2Tag(_datei.FullName);
             id3v2.PropertyChanged += id3v2_PropertyChanged;
+            var b = 1 + 1;
         }
 
         void id3v2_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
@@ -71,6 +72,7 @@ namespace aoideDancer
             }
             System.Threading.Thread.Sleep(500);
             result = MainWindow.system.playSound(FMOD.CHANNELINDEX.FREE, sound, false, ref channel);
+            if (channel == null) { return; }
             channel.getFrequency(ref _original_frequency);
             //this.SpeedPercent = _speed*100f;
             System.Threading.Thread fthread = new System.Threading.Thread(delegate() {
@@ -320,11 +322,13 @@ namespace aoideDancer
         public void setDance(string dancecode)
         {
             setComment("DANCE", dancecode);
+            id3v2.Publisher = this.getDance() + Math.Round(this.getDanceTpM(), 0).ToString();
         }
 
         public void setDanceTpM(float value)
         {
             setComment("DANCETPM", value.ToString());
+            id3v2.Publisher = this.getDance() + Math.Round(this.getDanceTpM(), 0).ToString();
         }
 
         public float FirstDanceBeat

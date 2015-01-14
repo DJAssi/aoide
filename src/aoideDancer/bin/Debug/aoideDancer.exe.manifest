@@ -43,38 +43,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="aoideDancer.exe" size="321976">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="aoideDancer.exe" size="323000">
       <assemblyIdentity name="aoideDancer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YMMtmZZ4X2z/yCej76sDZnzQwTFh7FJKFdKCEqw54/s=</dsig:DigestValue>
+        <dsig:DigestValue>x+bbUq00xvOksD1K9jNp0QKfKPpPCG7sniTvLhmtbK0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IdSharp.Common.dll" size="27136">
-      <assemblyIdentity name="IdSharp.Common" version="1.1.5490.1692" publicKeyToken="1C8AD57AE419CCFF" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="IdSharp.Common" version="1.1.5490.29111" publicKeyToken="1C8AD57AE419CCFF" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LEFWROkAe19x3t1hs08lyVAOu8zb+AhzKcXlldXs74U=</dsig:DigestValue>
+        <dsig:DigestValue>dYkBUpEu7U/kXRQwRo9riVDfOqkvhvHdm+TiLUsm+OY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IdSharp.Tagging.dll" size="222208">
-      <assemblyIdentity name="IdSharp.Tagging" version="1.1.5490.1693" publicKeyToken="9218F8C7F40DA032" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="IdSharp.Tagging" version="1.1.5490.29112" publicKeyToken="9218F8C7F40DA032" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1gaVWllVKxUfNHsFkFvGh4h4SX16gr8B24Bt/fJMsWE=</dsig:DigestValue>
+        <dsig:DigestValue>cph4tJXBMi/TYVsuk4iw7lgWYfCNtP/ywjo4UKvq5wk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
